@@ -14,6 +14,7 @@
 		7E6AEAE5238B5DEB004C2BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEAE3238B5DEB004C2BC1 /* Main.storyboard */; };
 		7E6AEAF1238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEAF0238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift */; };
 		7E6AEAFC238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEAFB238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift */; };
+		7E6AEB0A238B5E0F004C2BC1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEB09238B5E0F004C2BC1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7E6AEAF7238B5DEB004C2BC1 /* NPR24HourStreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPR24HourStreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6AEAFB238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR24HourStreamerUITests.swift; sourceTree = "<group>"; };
 		7E6AEAFD238B5DEB004C2BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6AEB09238B5E0F004C2BC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		7E6AEACE238B5DE8004C2BC1 = {
 			isa = PBXGroup;
 			children = (
+				7E6AEB09238B5E0F004C2BC1 /* README.md */,
 				7E6AEAD9238B5DE8004C2BC1 /* NPR24HourStreamer */,
 				7E6AEAEF238B5DEB004C2BC1 /* NPR24HourStreamerTests */,
 				7E6AEAFA238B5DEB004C2BC1 /* NPR24HourStreamerUITests */,
@@ -241,6 +244,7 @@
 			files = (
 				7E6AEAE5238B5DEB004C2BC1 /* Main.storyboard in Resources */,
 				7E6AEAE2238B5DEA004C2BC1 /* Preview Assets.xcassets in Resources */,
+				7E6AEB0A238B5E0F004C2BC1 /* README.md in Resources */,
 				7E6AEADF238B5DEA004C2BC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
