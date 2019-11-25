@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6AEADB238B5DE8004C2BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEADA238B5DE8004C2BC1 /* AppDelegate.swift */; };
+		7E6AEADD238B5DE8004C2BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEADC238B5DE8004C2BC1 /* ContentView.swift */; };
+		7E6AEADF238B5DEA004C2BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEADE238B5DEA004C2BC1 /* Assets.xcassets */; };
+		7E6AEAE2238B5DEA004C2BC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEAE1238B5DEA004C2BC1 /* Preview Assets.xcassets */; };
+		7E6AEAE5238B5DEB004C2BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEAE3238B5DEB004C2BC1 /* Main.storyboard */; };
+		7E6AEAF1238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEAF0238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift */; };
+		7E6AEAFC238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEAFB238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6AEAED238B5DEB004C2BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6AEACF238B5DE8004C2BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6AEAD6238B5DE8004C2BC1;
+			remoteInfo = NPR24HourStreamer;
+		};
+		7E6AEAF8238B5DEB004C2BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6AEACF238B5DE8004C2BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6AEAD6238B5DE8004C2BC1;
+			remoteInfo = NPR24HourStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E6AEAD7238B5DE8004C2BC1 /* NPR24HourStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPR24HourStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6AEADA238B5DE8004C2BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E6AEADC238B5DE8004C2BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E6AEADE238B5DEA004C2BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6AEAE1238B5DEA004C2BC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E6AEAE4238B5DEB004C2BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E6AEAE6238B5DEB004C2BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6AEAE7238B5DEB004C2BC1 /* NPR24HourStreamer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NPR24HourStreamer.entitlements; sourceTree = "<group>"; };
+		7E6AEAEC238B5DEB004C2BC1 /* NPR24HourStreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPR24HourStreamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6AEAF0238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR24HourStreamerTests.swift; sourceTree = "<group>"; };
+		7E6AEAF2238B5DEB004C2BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6AEAF7238B5DEB004C2BC1 /* NPR24HourStreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPR24HourStreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6AEAFB238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPR24HourStreamerUITests.swift; sourceTree = "<group>"; };
+		7E6AEAFD238B5DEB004C2BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6AEAD4238B5DE8004C2BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAE9238B5DEB004C2BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAF4238B5DEB004C2BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6AEACE238B5DE8004C2BC1 = {
+			isa = PBXGroup;
+			children = (
+				7E6AEAD9238B5DE8004C2BC1 /* NPR24HourStreamer */,
+				7E6AEAEF238B5DEB004C2BC1 /* NPR24HourStreamerTests */,
+				7E6AEAFA238B5DEB004C2BC1 /* NPR24HourStreamerUITests */,
+				7E6AEAD8238B5DE8004C2BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6AEAD8238B5DE8004C2BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AEAD7238B5DE8004C2BC1 /* NPR24HourStreamer.app */,
+				7E6AEAEC238B5DEB004C2BC1 /* NPR24HourStreamerTests.xctest */,
+				7E6AEAF7238B5DEB004C2BC1 /* NPR24HourStreamerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E6AEAD9238B5DE8004C2BC1 /* NPR24HourStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AEADA238B5DE8004C2BC1 /* AppDelegate.swift */,
+				7E6AEADC238B5DE8004C2BC1 /* ContentView.swift */,
+				7E6AEADE238B5DEA004C2BC1 /* Assets.xcassets */,
+				7E6AEAE3238B5DEB004C2BC1 /* Main.storyboard */,
+				7E6AEAE6238B5DEB004C2BC1 /* Info.plist */,
+				7E6AEAE7238B5DEB004C2BC1 /* NPR24HourStreamer.entitlements */,
+				7E6AEAE0238B5DEA004C2BC1 /* Preview Content */,
+			);
+			path = NPR24HourStreamer;
+			sourceTree = "<group>";
+		};
+		7E6AEAE0238B5DEA004C2BC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AEAE1238B5DEA004C2BC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E6AEAEF238B5DEB004C2BC1 /* NPR24HourStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AEAF0238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift */,
+				7E6AEAF2238B5DEB004C2BC1 /* Info.plist */,
+			);
+			path = NPR24HourStreamerTests;
+			sourceTree = "<group>";
+		};
+		7E6AEAFA238B5DEB004C2BC1 /* NPR24HourStreamerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AEAFB238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift */,
+				7E6AEAFD238B5DEB004C2BC1 /* Info.plist */,
+			);
+			path = NPR24HourStreamerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6AEAD6238B5DE8004C2BC1 /* NPR24HourStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6AEB00238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamer" */;
+			buildPhases = (
+				7E6AEAD3238B5DE8004C2BC1 /* Sources */,
+				7E6AEAD4238B5DE8004C2BC1 /* Frameworks */,
+				7E6AEAD5238B5DE8004C2BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPR24HourStreamer;
+			productName = NPR24HourStreamer;
+			productReference = 7E6AEAD7238B5DE8004C2BC1 /* NPR24HourStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E6AEAEB238B5DEB004C2BC1 /* NPR24HourStreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6AEB03238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamerTests" */;
+			buildPhases = (
+				7E6AEAE8238B5DEB004C2BC1 /* Sources */,
+				7E6AEAE9238B5DEB004C2BC1 /* Frameworks */,
+				7E6AEAEA238B5DEB004C2BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6AEAEE238B5DEB004C2BC1 /* PBXTargetDependency */,
+			);
+			name = NPR24HourStreamerTests;
+			productName = NPR24HourStreamerTests;
+			productReference = 7E6AEAEC238B5DEB004C2BC1 /* NPR24HourStreamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6AEAF6238B5DEB004C2BC1 /* NPR24HourStreamerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6AEB06238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamerUITests" */;
+			buildPhases = (
+				7E6AEAF3238B5DEB004C2BC1 /* Sources */,
+				7E6AEAF4238B5DEB004C2BC1 /* Frameworks */,
+				7E6AEAF5238B5DEB004C2BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6AEAF9238B5DEB004C2BC1 /* PBXTargetDependency */,
+			);
+			name = NPR24HourStreamerUITests;
+			productName = NPR24HourStreamerUITests;
+			productReference = 7E6AEAF7238B5DEB004C2BC1 /* NPR24HourStreamerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6AEACF238B5DE8004C2BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Darren Klein";
+				TargetAttributes = {
+					7E6AEAD6238B5DE8004C2BC1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7E6AEAEB238B5DEB004C2BC1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7E6AEAD6238B5DE8004C2BC1;
+					};
+					7E6AEAF6238B5DEB004C2BC1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7E6AEAD6238B5DE8004C2BC1;
+					};
+				};
+			};
+			buildConfigurationList = 7E6AEAD2238B5DE8004C2BC1 /* Build configuration list for PBXProject "NPR24HourStreamer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E6AEACE238B5DE8004C2BC1;
+			productRefGroup = 7E6AEAD8238B5DE8004C2BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E6AEAD6238B5DE8004C2BC1 /* NPR24HourStreamer */,
+				7E6AEAEB238B5DEB004C2BC1 /* NPR24HourStreamerTests */,
+				7E6AEAF6238B5DEB004C2BC1 /* NPR24HourStreamerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6AEAD5238B5DE8004C2BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6AEAE5238B5DEB004C2BC1 /* Main.storyboard in Resources */,
+				7E6AEAE2238B5DEA004C2BC1 /* Preview Assets.xcassets in Resources */,
+				7E6AEADF238B5DEA004C2BC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAEA238B5DEB004C2BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAF5238B5DEB004C2BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E6AEAD3238B5DE8004C2BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6AEADD238B5DE8004C2BC1 /* ContentView.swift in Sources */,
+				7E6AEADB238B5DE8004C2BC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAE8238B5DEB004C2BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6AEAF1238B5DEB004C2BC1 /* NPR24HourStreamerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6AEAF3238B5DEB004C2BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6AEAFC238B5DEB004C2BC1 /* NPR24HourStreamerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6AEAEE238B5DEB004C2BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6AEAD6238B5DE8004C2BC1 /* NPR24HourStreamer */;
+			targetProxy = 7E6AEAED238B5DEB004C2BC1 /* PBXContainerItemProxy */;
+		};
+		7E6AEAF9238B5DEB004C2BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6AEAD6238B5DE8004C2BC1 /* NPR24HourStreamer */;
+			targetProxy = 7E6AEAF8238B5DEB004C2BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6AEAE3238B5DEB004C2BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6AEAE4238B5DEB004C2BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6AEAFE238B5DEB004C2BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E6AEAFF238B5DEB004C2BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7E6AEB01238B5DEB004C2BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NPR24HourStreamer/NPR24HourStreamer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NPR24HourStreamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NPR24HourStreamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E6AEB02238B5DEB004C2BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NPR24HourStreamer/NPR24HourStreamer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"NPR24HourStreamer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NPR24HourStreamer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7E6AEB04238B5DEB004C2BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPR24HourStreamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPR24HourStreamer.app/Contents/MacOS/NPR24HourStreamer";
+			};
+			name = Debug;
+		};
+		7E6AEB05238B5DEB004C2BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPR24HourStreamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPR24HourStreamer.app/Contents/MacOS/NPR24HourStreamer";
+			};
+			name = Release;
+		};
+		7E6AEB07238B5DEB004C2BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPR24HourStreamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NPR24HourStreamer;
+			};
+			name = Debug;
+		};
+		7E6AEB08238B5DEB004C2BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NPR24HourStreamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "darren-klein.NPR24HourStreamerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NPR24HourStreamer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E6AEAD2238B5DE8004C2BC1 /* Build configuration list for PBXProject "NPR24HourStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6AEAFE238B5DEB004C2BC1 /* Debug */,
+				7E6AEAFF238B5DEB004C2BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6AEB00238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6AEB01238B5DEB004C2BC1 /* Debug */,
+				7E6AEB02238B5DEB004C2BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6AEB03238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6AEB04238B5DEB004C2BC1 /* Debug */,
+				7E6AEB05238B5DEB004C2BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6AEB06238B5DEB004C2BC1 /* Build configuration list for PBXNativeTarget "NPR24HourStreamerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6AEB07238B5DEB004C2BC1 /* Debug */,
+				7E6AEB08238B5DEB004C2BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6AEACF238B5DE8004C2BC1 /* Project object */;
+}
