@@ -11,23 +11,42 @@ import SwiftUI
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    var window: NSWindow!
-
+    var statusBarItem: NSStatusItem!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let statusBar = NSStatusBar.system
+        statusBarItem = statusBar.statusItem(withLength: NSStatusItem.squareLength)
+        
+        statusBarItem.button?.title = "+"
+        
+        let statusBarMenu = NSMenu(title: "This is my menu title")
+        
+        statusBarItem.menu = statusBarMenu
+        
+        statusBarMenu.addItem(
+            withTitle: "Order a burrito",
+            action: #selector(AppDelegate.orderABurrito),
+            keyEquivalent: "")
 
-        // Create the window and set the content view. 
-        window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
-            styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
-            backing: .buffered, defer: false)
-        window.center()
-        window.setFrameAutosaveName("Main Window")
-        window.contentView = NSHostingView(rootView: contentView)
-        window.makeKeyAndOrderFront(nil)
+        statusBarMenu.addItem(
+            withTitle: "Cancel burrito order",
+            action: #selector(AppDelegate.cancelBurritoOrder),
+            keyEquivalent: "")
+    }
+
+    @objc func orderABurrito() {
+        var request = URLRequest(url: URL(string: "https://www.cnn.com/")!)
+        request.httpMethod = "GET"
+
+        let session = URLSession(configuration: .default)
+        session.dataTask(with: request) {data, response, error in
+            let requestReply = NSString(data: data!, encoding: String.Encoding.ascii.rawValue)
+            print("Request reply: \(requestReply!)")
+        }.resume()
+    }
+
+    @objc func cancelBurritoOrder() {
+        print("Canceling your order :(")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
